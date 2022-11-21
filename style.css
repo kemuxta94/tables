@@ -1,0 +1,37 @@
+/* Lesson4 */
+
+h1{
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+th{
+    background-color: #0a3251;
+    color: white;
+    padding: 10px 30px 10px 30px;
+}
+tr{
+    width: 100%;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+table{
+    width: 100%;
+    table-layout: auto;
+}
+td{
+    padding: 10px;
+}
+tr:nth-child(even){
+    background-color: #f5f5f5;
+}
+td a{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+td a :hover{
+    background-color: blue;
+}
